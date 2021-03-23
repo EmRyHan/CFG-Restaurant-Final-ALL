@@ -1,0 +1,241 @@
+.navbar_ul {
+   flex: 1;
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white ;
+}
+.navbar li {
+    flex: 1;
+    display:inline;
+    margin: 5px;
+    cursor: pointer;
+}
+.logo {
+  display: inline;
+   float: left;
+    cursor: default;
+    width:auto;
+    height: 90px;
+}
+.navbar a {
+   display: flex;
+   float: right;
+   color: black;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.element{
+  float: right;
+}
+.navbar a:hover {
+    color: grey;
+}
+
+          /* End Navbar */
+
+          /* Start MainPage */
+ main{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        }         
+   
+article {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: gray;
+    text-align: center;
+            
+     }
+        
+        
+   article h1 {
+    text-transform: uppercase;
+    font-weight: 1200;
+    color:white; 
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    text-shadow: 2px white;
+         
+    }
+        
+   article p {
+    font-size: 23px;
+    font-family: 'Cormorant Unicase', serif;
+    font-weight:bolder;
+    color:whitesmoke;
+    text-shadow: 2px white;
+         
+       
+    }
+        
+   button {
+    max-width: 50%;
+    border-radius: 50px !important ;
+   }
+  
+   button a{
+     color:white;
+     text-decoration: none;
+   }
+
+   button a:hover{
+     color:white;
+     text-decoration: none;
+   }
+
+       /* End MainPage */
+
+       /* Main video Aside Start */
+   *{
+    margin: 0;
+    padding: 0;
+  }
+  .video-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .video-container .video{
+    height: 25rem;
+    width: 30rem;
+    margin: 1rem;
+    box-shadow: 0 .5rem 1rem black;
+    overflow: hidden;
+   border-radius: 1rem;
+  }
+  .video-container .video video{
+    height: 100%;
+    width: 100vh;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  } 
+  /* Main video Aside End  */
+       
+   /* Start Footer */
+
+   #footer {
+    display: table;
+    display: flex;
+    max-width: 60em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    margin: 0 auto;
+    background-color: white;
+    color:  black;
+ }
+#footer div {
+    display: table-cell;
+    width: 33.333%;
+    padding: 1em;
+    text-align: center;
+}
+#footer div .heading {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+ }
+#footer div:nth-of-type(2) {
+    border-right: 0.062em;
+    border-left: 0.062em;
+ }
+ .footerhovergrey{
+  color:black;
+  font-weight: bold;
+  font-style: none;
+  font-size: 15px;
+  font-family:Arial,Helvetica,sans-serif;
+}
+.footerhovergrey:hover{
+  color: grey;
+}
+.row1, .row3{
+  font-family:Arial,Helvetica,sans-serif;
+  font-style:italic ;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+/* Row 2 */
+.logofooter{
+  display: inline;
+   text-align: center;
+    cursor: default;
+    width:auto;
+    height:90px;
+    
+}
+.socialmedia{
+  display:inline-block;
+  padding-top: 5px;
+  text-align: center;
+padding: 0px;
+}
+.fb{
+  width:40px;
+  height: auto;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.fb:hover{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.insta{
+  width:40px;
+  height: auto;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.insta:hover{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.twitter{
+  width:40px;
+  height: auto;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.twitter:hover{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.copyright{
+  text-align: center;
+  font-family: Arial,Helvetica,sans-serif;
+  font-style: italic;
+  font-size: 10px;
+  color: black;
+  background-color: white;
+}
+
+.row2 a{
+  color:none;
+  text-decoration: none;
+}
+
+/* End Footer */
